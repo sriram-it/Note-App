@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-1V-iBG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noteLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="3Wf-Z8-sBN">
+                                        <rect key="frame" x="82" y="158" width="274" height="400"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="400" id="7tk-gG-kKL"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONE NOTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B40-6d-syw">
+                                        <rect key="frame" x="82" y="582" width="274" height="60"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2470588235" green="0.43529411759999997" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="3Wf-Z8-sBN" secondAttribute="trailing" constant="58" id="Ac8-1n-HX4"/>
+                                    <constraint firstItem="B40-6d-syw" firstAttribute="top" secondItem="3Wf-Z8-sBN" secondAttribute="bottom" constant="24" id="Mm1-Pr-SHT"/>
+                                    <constraint firstItem="3Wf-Z8-sBN" firstAttribute="leading" secondItem="Bch-1V-iBG" secondAttribute="leading" constant="82" id="aKC-Rr-GYi"/>
+                                    <constraint firstItem="B40-6d-syw" firstAttribute="leading" secondItem="Bch-1V-iBG" secondAttribute="leading" constant="82" id="djF-mM-e4g"/>
+                                    <constraint firstItem="3Wf-Z8-sBN" firstAttribute="top" secondItem="Bch-1V-iBG" secondAttribute="top" constant="158" id="dm3-Cz-3Dg"/>
+                                    <constraint firstAttribute="trailing" secondItem="B40-6d-syw" secondAttribute="trailing" constant="58" id="g2l-E3-prR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bch-1V-iBG" secondAttribute="trailing" id="1m5-HY-h6p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="Bch-1V-iBG" secondAttribute="top" constant="44" id="HPr-5S-8rn"/>
+                            <constraint firstItem="Bch-1V-iBG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MrV-Jq-1mk"/>
+                            <constraint firstItem="Bch-1V-iBG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="UrE-pu-b3t"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noteLaunch" width="512" height="512"/>
+    </resources>
+</document>
